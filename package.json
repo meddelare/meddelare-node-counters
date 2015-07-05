@@ -1,6 +1,6 @@
 {
     "name": "meddelare-counters",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "description": "Node.js promise-based, asynchronous, parallel, per-URL social network share count fetcher -- the base of Meddelare.",
     "homepage": "http://meddelare.com/",
     "repository": {
@@ -16,6 +16,17 @@
         "extend": "^3.0.0",
         "memory-cache": "^0.1.4",
         "request": "^2.33.0"
+    },
+    "devDependencies": {
+        "eslint": "^0.23.0",
+        "jscs": "^1.13.1",
+        "pre-commit": "^1.0.10"
+    },
+    "scripts": {
+        "test": "npm run lint && echo && echo 'No tests have been added!'",
+        "lint": "npm run eslint && npm run jscs",
+        "jscs": "node node_modules/jscs/bin/jscs lib/index.js",
+        "eslint": "node node_modules/eslint/bin/eslint.js lib/index.js"
     },
     "engines": {
         "node": "0.10.x",
