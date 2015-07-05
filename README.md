@@ -40,8 +40,8 @@ npm install --save meddelare-counters
 **Fetch counts from social networks**
 
 ```javascript
-var SocialButtonsCounts = require("meddelare-counters"),
-    socialButtonsCounts = new SocialButtonsCounts();
+var MeddelareCounters = require("meddelare-counters"),
+    meddelareCounters = new MeddelareCounters();
 
 // Use your own website here, or a specific page url.
 var url = "http://meddelare.com",
@@ -51,7 +51,7 @@ var url = "http://meddelare.com",
         "googleplus",
     ];
 
-socialButtonsCounts.retrieveCounts(url, networks)
+meddelareCounters.retrieveCounts(url, networks)
     .then(function(results) {
         console.log("Success!", results);
     })
@@ -88,7 +88,7 @@ If a request to a social network failed, a count of `-1` is returned for that ne
 
 ## Configuration
 
-Configure the middleware instance at creation time, for example `new SocialButtonsCounts({ unknownCount: 0 })`.
+Configure the middleware instance at creation time, for example `new MeddelareCounters({ unknownCount: 0 })`.
 
 These are the default values.
 
