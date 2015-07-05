@@ -1,0 +1,39 @@
+{
+    "name": "meddelare-counters",
+    "version": "1.0.0-alpha.1",
+    "description": "Node.js promise-based, asynchronous, parallel, per-URL social network share count fetcher -- the base of Meddelare.",
+    "homepage": "http://meddelare.com/",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/meddelare/meddelare-node-counters.git"
+    },
+    "bugs": {
+        "url": "https://github.com/meddelare/meddelare-node-counters/issues"
+    },
+    "main": "lib/index.js",
+    "dependencies": {
+        "bluebird": "^2.9.30",
+        "extend": "^3.0.0",
+        "memory-cache": "^0.1.4",
+        "request": "^2.33.0"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.3.x"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Meddelare",
+        "url": "http://meddelare.com/"
+    },
+    "contributors": [{
+        "name": "Thomas Davis",
+        "url": "http://thomasdav.is/"
+    }, {
+        "name": "Beau Gunderson",
+        "url": "https://beaugunderson.com/"
+    }, {
+        "name": "Joel Purra",
+        "url": "http://joelpurra.com/"
+    }]
+}
