@@ -16,7 +16,7 @@ View examples on [meddelare.com/meddelare-examples](http://meddelare.com/meddela
 Node.js promise-based, asynchronous, parallel, per-URL social network share count fetcher -- the base of Meddelare.
 
 - If you want a ready-made standalone Meddelare server, check out [meddelare-node-server](https://github.com/meddelare/meddelare-node-server).
-- If you want to use Meddelare in an existing Express server, check out [meddelare-node-expess](https://github.com/meddelare/meddelare-node-expess).
+- If you want to use Meddelare in an existing Express server, check out [meddelare-node-express](https://github.com/meddelare/meddelare-node-express).
 
 
 
