@@ -1,11 +1,11 @@
-# [Meddelare](http://meddelare.com/) Social Buttons Share Count Fetcher [meddelare-node-counters](https://github.com/meddelare/meddelare-node-counters)
+# [Meddelare](https://meddelare.com/) Social Buttons Share Count Fetcher [meddelare-node-counters](https://github.com/meddelare/meddelare-node-counters)
 
 
 Install **custom social share counters** on your website with your **own hosted solution**, which only makes **a single API request** and loads **minimal or zero assets** to display the counters.
 
-[![A screenshot of the button example](https://cloud.githubusercontent.com/assets/1398544/8511166/5c92d0b2-230b-11e5-895a-d3b67da749b5.png)](http://meddelare.com/)
+[![A screenshot of the button example](https://cloud.githubusercontent.com/assets/1398544/8511166/5c92d0b2-230b-11e5-895a-d3b67da749b5.png)](https://meddelare.com/)
 
-Check out [meddelare.com](http://meddelare.com/) and view examples on [meddelare.com/meddelare-examples](http://meddelare.com/meddelare-examples).
+Check out [meddelare.com](https://meddelare.com/) and view examples on [meddelare.com/meddelare-examples](https://meddelare.com/meddelare-examples).
 
 
 
@@ -46,7 +46,7 @@ var MeddelareCounters = require("meddelare-counters"),
     meddelareCounters = new MeddelareCounters();
 
 // Use your own website here, or a specific page url.
-var url = "http://meddelare.com",
+var url = "https://meddelare.com",
     networks = [
         "facebook",
         "twitter",
@@ -64,7 +64,7 @@ meddelareCounters.retrieveCounts(url, networks)
 
 
 **Url**  
-Use the `url` parameter to specify the address which you want to retrieve the number of shares for, for example `http://meddelare.com` or a more specific url poiting to a specific page.
+Use the `url` parameter to specify the address which you want to retrieve the number of shares for, for example `https://meddelare.com` or a more specific url poiting to a specific page.
 
 
 **Networks**  
@@ -122,6 +122,6 @@ Many thanks goes out to [Taskforce](https://taskforce.is/) for their [social-but
 
 ---
 
-Copyright (c) 2015 Team Meddelare <http://meddelare.com/> All rights reserved.
+Copyright (c) 2015 Team Meddelare <https://meddelare.com/> All rights reserved.
 
 When using [meddelare-node-counters](https://github.com/meddelare/meddelare-node-counters), comply to the [MIT license](http://opensource.org/licenses/MIT).

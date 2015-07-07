@@ -2,7 +2,7 @@
     "name": "meddelare-counters",
     "version": "1.0.0",
     "description": "Node.js promise-based, asynchronous, parallel, per-URL social network share count fetcher -- the base of Meddelare.",
-    "homepage": "http://meddelare.com/",
+    "homepage": "https://meddelare.com/",
     "repository": {
         "type": "git",
         "url": "git://github.com/meddelare/meddelare-node-counters.git"
@@ -35,7 +35,7 @@
     "license": "MIT",
     "author": {
         "name": "Meddelare",
-        "url": "http://meddelare.com/"
+        "url": "https://meddelare.com/"
     },
     "contributors": [{
         "name": "Thomas Davis",
