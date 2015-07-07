@@ -22,10 +22,10 @@ Node.js promise-based, asynchronous, parallel, per-URL social network share coun
 
 ## Features
 
-- Get counts from multiple social networks in a single API call, returned as a javascript object literal.
-- Retrieval is asynchronous and uses [bluebird](https://github.com/petkaantonov/bluebird) promises.
-- The library calls social networks in parallel, making it (approximately) as fast to get the count from one as several at once.
-- Super-fast in-memory cache keeps the most recent results per network and url.
+- **Retrieval is asynchronous** and uses [bluebird](https://github.com/petkaantonov/bluebird) promises.
+- **Calls social networks in parallel** from the server, making it (approximately) as fast to get the count from one as several at once.
+- **Can be used for both server-side and client-side** logic, for example calculating daily statistics or backing a sharing widget.
+- **Super-fast in-memory cache** keeps the most recent results per network and url.
 
 
 
