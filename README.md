@@ -64,7 +64,13 @@ meddelareCounters.retrieveCounts(url, networks)
 
 
 **Url**  
-Use the `url` parameter to specify the address which you want to retrieve the number of shares for, for example `https://meddelare.com` or a more specific url poiting to a specific page.
+Use the `url` parameter to specify the address which you want to retrieve the number of shares for.
+
+- Include `https://` or `http://` in the URL.
+- You can use your domain root, or a more specific url pointing to a specific page.
+- The value *must not* be [URL-encoded](http://en.wikipedia.org/wiki/URL_encoding).
+  - Each network has a different way of retrieving the share count. Therefore each network decides to use URL-encoding if necessary.
+  - This prevents problems when looking up values for pages with, for example, parameters separated by `&` by avoiding double-encoding the address.
 
 
 **Networks**  
