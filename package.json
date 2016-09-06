@@ -23,7 +23,7 @@
         "pre-commit": "^1.0.10"
     },
     "scripts": {
-        "test": "npm run lint && echo && echo 'No tests have been added!'",
+        "test": "npm run lint && node test/index.integration.js",
         "lint": "npm run eslint && npm run jscs",
         "jscs": "node node_modules/jscs/bin/jscs lib/index.js",
         "eslint": "node node_modules/eslint/bin/eslint.js lib/index.js"
