@@ -12,7 +12,7 @@
     },
     "main": "lib/index.js",
     "dependencies": {
-        "bluebird": "^2.9.30",
+        "bluebird": "^3.4.6",
         "extend": "^3.0.0",
         "memory-cache": "^0.1.4",
         "request": "^2.33.0"
@@ -37,14 +37,18 @@
         "name": "Meddelare",
         "url": "https://meddelare.com/"
     },
-    "contributors": [{
-        "name": "Thomas Davis",
-        "url": "http://thomasdav.is/"
-    }, {
-        "name": "Beau Gunderson",
-        "url": "https://beaugunderson.com/"
-    }, {
-        "name": "Joel Purra",
-        "url": "http://joelpurra.com/"
-    }]
+    "contributors": [
+        {
+            "name": "Thomas Davis",
+            "url": "http://thomasdav.is/"
+        },
+        {
+            "name": "Beau Gunderson",
+            "url": "https://beaugunderson.com/"
+        },
+        {
+            "name": "Joel Purra",
+            "url": "http://joelpurra.com/"
+        }
+    ]
 }
