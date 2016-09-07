@@ -10,7 +10,7 @@ var MeddelareCounters = require("../lib"),
     meddelareCounters = new MeddelareCounters(meddelareCountersOptions);
 
 // Use your own website here, or a specific page url.
-var url = "https://meddelare.com",
+var url = "https://meddelare.com/",
     networks = [
         "facebook",
         "twitter",
